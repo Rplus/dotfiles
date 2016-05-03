@@ -1,0 +1,36 @@
+[
+    {
+        "keys": ["alt+home"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 0.05, 1.0],
+            "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+        }
+    },
+    {
+        "keys": ["alt+end"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 0.95, 1.0],
+            "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+        }
+    },
+    { "keys": ["ctrl+shift+alt+t"], "command": "delete_trailing_spaces" },
+    { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+    { "keys": ["alt+a"], "command": "toggle_side_bar" },
+    { "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar" },
+
+    { "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
+
+    { "keys": ["f5"], "command": "revert" },
+
+    { "keys": ["alt+shift+r"], "command": "reveal_in_side_bar" },
+
+    { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0 } },
+    { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0 } }
+]
