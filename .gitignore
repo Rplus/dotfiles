@@ -1,6 +1,5 @@
 # sublime config
-Package Control.user-ca-bundle
 *.tmTheme
 *.last-run
-*.user-ca-bundle
-
+*.*-ca-bundle
+*.cache
