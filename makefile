@@ -4,7 +4,7 @@ init:
 	ln -fs `pwd`/vimrc   ~/.vimrc
 	ln -fs `pwd`/easystroke   ~/.easystroke
 	ln -fs `pwd`/Sublime-User   ~/.config/sublime-text-3/Packages/User
-	# ln -fs `pwd`/zshrc   ~/.zshrc
+	ln -fs `pwd`/zshrc   ~/.zshrc
 
 sync:
 	git pull
