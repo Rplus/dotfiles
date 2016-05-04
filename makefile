@@ -1,5 +1,6 @@
 init:
 	ln -fs `pwd`/gitconfig   ~/.gitconfig
+	ln -fs `pwd`/gitignore_global   ~/.gitignore_global
 	ln -fs `pwd`/tigrc   ~/.tigrc
 	ln -fs `pwd`/vimrc   ~/.vimrc
 	ln -fs `pwd`/easystroke   ~/.easystroke
