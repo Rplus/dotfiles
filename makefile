@@ -26,6 +26,9 @@ ln:
 	ln -fsn /home/share-config/.config/vivaldi   ~/.config/vivaldi
 	ln -fsn /home/share-config/.config/vlc       ~/.config/vlc
 	ln -fsn /home/share-config/.config/gpicview  ~/.config/gpicview
+	ln -fsn /home/share-config/.config/.shutter  ~/.shutter
+
+	ln -fsn /home/share-config/.config/.local/fonts  ~/.local/share/fonts
 	ln -fsn /home/share-config/.config/sublime-text-3 ~/.config/sublime-text-3
 	ln -fsn /home/share-config/.config/google-chrome ~/.config/google-chrome
 	ln -fsn /home/share-config/.config/google-chrome-unstable ~/.config/google-chrome-unstable
