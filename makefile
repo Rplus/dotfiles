@@ -11,6 +11,10 @@ init:
 
 	ln -fsn `pwd`/Sublime-User   ~/.config/sublime-text-3/Packages/User
 
+	# xfce terminal config
+	mkdir -p ~/.config/xfce4/terminal/
+	ln -fs `pwd`/terminalrc   ~/.config/xfce4/terminal/terminalrc
+
 sync:
 	git pull
 	git push
