@@ -99,6 +99,8 @@ alias gri="git rebase -i"
 alias gri="git rebase -i"
 alias gfr="git co master && git fetch upstream && git rebase upstream/master"
 alias npmo="npm --cache-min 9999999 "
+alias py-s="python -m SimpleHTTPServer"
+
 
 # export NVM_DIR="/home/r/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
