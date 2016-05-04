@@ -3,11 +3,12 @@ init:
 	ln -fs `pwd`/tigrc   ~/.tigrc
 	ln -fs `pwd`/vimrc   ~/.vimrc
 	ln -fs `pwd`/easystroke   ~/.easystroke
-	ln -fs `pwd`/Sublime-User   ~/.config/sublime-text-3/Packages/User
 	ln -fs `pwd`/zshrc   ~/.zshrc
 
 	cd /home/share-config/.config/
 	make ln
+
+	ln -fsn `pwd`/Sublime-User   ~/.config/sublime-text-3/Packages/User
 
 sync:
 	git pull
