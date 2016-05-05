@@ -10,6 +10,7 @@ elif ! sudo -v; then
 fi
 
 sudo add-apt-repository ppa:git-core/ppa -y
+sudo add-apt-repository ppa:rvm/smplayer
 sudo apt-get update  # To get the latest package lists
 sudo apt-get -y update
 sudo apt-get -y upgrade
