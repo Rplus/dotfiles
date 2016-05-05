@@ -27,7 +27,7 @@ ln:
 	ln -fsn /home/share-config/.config/htop      ~/.config/htop
 	ln -fsn /home/share-config/.config/inkscape  ~/.config/inkscape
 	ln -fsn /home/share-config/.config/smplayer  ~/.config/smplayer
-	ln -fsn /home/share-config/.config/smtube    ~/.config/smtube
+	# ln -fsn /home/share-config/.config/smtube    ~/.config/smtube
 	ln -fsn /home/share-config/.config/vivaldi   ~/.config/vivaldi
 	ln -fsn /home/share-config/.config/vlc       ~/.config/vlc
 	ln -fsn /home/share-config/.config/gpicview  ~/.config/gpicview
