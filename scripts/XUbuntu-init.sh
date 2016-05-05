@@ -14,7 +14,7 @@ sudo add-apt-repository ppa:rvm/smplayer
 sudo apt-get update  # To get the latest package lists
 sudo apt-get -y update
 sudo apt-get -y upgrade
-sudo apt-get install -y arandr bmon wmctrl curl htop easystroke gcin git gitg gitk tig gparted gtk-recordmydesktop kazam mupdf meld nodejs retext shutter synaptic vim xclip xfce4-time-out-plugin zsh ruby ruby-full
+sudo apt-get install -y arandr bmon wmctrl curl htop easystroke gcin git gitg gitk tig gparted gtk-recordmydesktop kazam mupdf meld nodejs retext shutter synaptic vim xclip xfce4-time-out-plugin zsh
 
 # fonts
 sudo apt-get remove -y fonts-arphic-ukai fonts-arphic-uming
@@ -42,15 +42,6 @@ sudo dpkg -i sublime-text_build-3103_amd64.deb
 sudo npm install -g n gulp webpack grunt browser-sync npm-check semistandard standard-format diff-so-fancy postcss-cli
 sudo n stable
 sudo n lts
-
-# install ruby
-# curl -L https://get.rvm.io | sudo bash -s stable
-# rvm requirements
-# rvm install stable
-
-# install jekyll & github-pages
-gem install jekyll
-gem install github-pages
 
 # install zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
