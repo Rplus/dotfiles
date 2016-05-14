@@ -35,7 +35,7 @@ sudo dpkg -i google-chrome-unstable_current_amd64.deb
 
 # install sublime text
 cd /tmp
-wget https://download.sublimetext.com/sublime-text_build-3103_amd64.deb
+wget https://download.sublimetext.com/sublime-text_build-3114_amd64.deb
 sudo dpkg -i sublime-text_build-3103_amd64.deb
 
 # install nodejs
