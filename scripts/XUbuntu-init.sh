@@ -14,7 +14,7 @@ sudo add-apt-repository ppa:rvm/smplayer
 sudo apt-get update  # To get the latest package lists
 sudo apt-get -y update
 sudo apt-get -y upgrade
-sudo apt-get install -y arandr bmon wmctrl curl htop easystroke gcin git gitg gitk tig gparted gtk-recordmydesktop kazam mupdf meld nodejs retext shutter synaptic vim xclip xfce4-time-out-plugin zsh
+sudo apt-get install -y arandr bmon wmctrl curl htop easystroke gcin git gitg gitk tig gparted gtk-recordmydesktop kazam mupdf meld nodejs retext shutter synaptic vim xclip xfce4-time-out-plugin zsh cloc
 
 # fonts
 sudo apt-get remove -y fonts-arphic-ukai fonts-arphic-uming
