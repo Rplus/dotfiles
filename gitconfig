@@ -24,6 +24,6 @@
 [diff]
 	tool = xxdiff
 [pager]
-	log = diff-highlight.sh | less
-	show = diff-highlight.sh | less
-	diff = diff-highlight.sh | less
+	log = diff-highlight | less
+	show = diff-highlight | less
+	diff = diff-highlight | less
