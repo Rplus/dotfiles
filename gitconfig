@@ -23,3 +23,7 @@
 	historybrowser = gitk
 [diff]
 	tool = xxdiff
+[pager]
+	log = diff-highlight.sh | less
+	show = diff-highlight.sh | less
+	diff = diff-highlight.sh | less
