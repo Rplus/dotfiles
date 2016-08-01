@@ -6,7 +6,9 @@
 	"installed_packages":
 	[
 		"Abacus",
+		"All Autocomplete",
 		"ASCII Decorator",
+		"AutoCompleteJS",
 		"Babel",
 		"Better Completion",
 		"BracketHighlighter",
@@ -20,6 +22,7 @@
 		"GhostText",
 		"Git",
 		"GitGutter",
+		"GSAP Snippets",
 		"Gulp",
 		"HTML-CSS-JS Prettify",
 		"INI",
