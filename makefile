@@ -47,10 +47,12 @@ ruby:
 	gem install github-pages
 
 npm:
+	# https://docs.npmjs.com/getting-started/fixing-npm-permissions#option-2-change-npms-default-directory-to-another-directory
 	mkdir "${HOME}/.npm-global" -p
+	npm config set prefix '~/.npm-global'
 	npm install -g n gulp webpack grunt browser-sync npm-check semistandard standard-format diff-so-fancy postcss-cli
-	n stable
-	n lts
+	sudo n stable
+	sudo n lts
 
 logic-key:
 	ln -fs `pwd`/xbindkeysrc   ~/.xbindkeysrc
