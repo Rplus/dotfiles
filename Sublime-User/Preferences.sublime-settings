@@ -111,6 +111,7 @@
 		"Vintage"
 	],
 	"original_color_scheme": "Packages/Monokai Extended/Monokai Extended Bright.tmTheme",
+	"show_definitions": false,
 	"show_tab_close_buttons": false,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
