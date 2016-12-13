@@ -45,3 +45,9 @@ ruby:
 	source ~/.rvm/scripts/rvm
 	rvm install ruby --head
 	gem install github-pages
+
+npm:
+	mkdir "${HOME}/.npm-global" -p
+	npm install -g n gulp webpack grunt browser-sync npm-check semistandard standard-format diff-so-fancy postcss-cli
+	n stable
+	n lts

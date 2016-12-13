@@ -39,9 +39,9 @@ wget https://download.sublimetext.com/sublime-text_build-3114_amd64.deb
 sudo dpkg -i sublime-text_build-3114_amd64.deb
 
 # install nodejs
-sudo npm install -g n gulp webpack grunt browser-sync npm-check semistandard standard-format diff-so-fancy postcss-cli
-sudo n stable
-sudo n lts
+# sudo npm install -g n gulp webpack grunt browser-sync npm-check semistandard standard-format diff-so-fancy postcss-cli
+# sudo n stable
+# sudo n lts
 
 # install zsh
 # sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
