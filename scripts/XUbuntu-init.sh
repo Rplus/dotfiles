@@ -35,8 +35,8 @@ sudo dpkg -i google-chrome-unstable_current_amd64.deb
 
 # install sublime text
 cd /tmp
-wget https://download.sublimetext.com/sublime-text_build-3114_amd64.deb
-sudo dpkg -i sublime-text_build-3114_amd64.deb
+wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb
+sudo dpkg -i sublime-text_build*
 
 # install nodejs
 # sudo npm install -g n gulp webpack grunt browser-sync npm-check semistandard standard-format diff-so-fancy postcss-cli
