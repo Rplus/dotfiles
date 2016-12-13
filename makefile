@@ -51,3 +51,7 @@ npm:
 	npm install -g n gulp webpack grunt browser-sync npm-check semistandard standard-format diff-so-fancy postcss-cli
 	n stable
 	n lts
+
+logic-key:
+	ln -fs `pwd`/xbindkeysrc   ~/.xbindkeysrc
+	sudo apt-get install xbindkeys xautomation
