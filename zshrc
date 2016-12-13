@@ -96,7 +96,6 @@ alias gss="git stash"
 alias gsp="git stash pop"
 alias ggv="git commit -v"
 alias gri="git rebase -i"
-alias gri="git rebase -i"
 alias gfr="git co master && git fetch upstream && git rebase upstream/master"
 alias npmo="npm --cache-min 9999999 "
 alias py-s="python -m SimpleHTTPServer"
@@ -107,3 +106,6 @@ alias py-s="python -m SimpleHTTPServer"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+export PATH="$HOME/.yarn/bin:$PATH"
+export PATH="$HOME/.npm-global/bin:$PATH"
