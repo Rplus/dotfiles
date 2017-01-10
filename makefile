@@ -31,6 +31,7 @@ ln:
 	ln -fsn /home/share-config/.config/vivaldi   ~/.config/vivaldi
 	ln -fsn /home/share-config/.config/vlc       ~/.config/vlc
 	ln -fsn /home/share-config/.config/gpicview  ~/.config/gpicview
+	ln -fsn /home/share-config/.config/viewnior  ~/.config/viewnior
 	ln -fsn /home/share-config/.config/.shutter  ~/.shutter
 
 	ln -fsn /home/share-config/.config/.local/fonts  ~/.local/share/fonts

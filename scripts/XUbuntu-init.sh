@@ -21,7 +21,7 @@ sudo apt-get remove -y fonts-arphic-ukai fonts-arphic-uming
 sudo apt-get install -y fonts-wqy-microhei fonts-wqy-zenhei gnome-font-viewer font-manager fonts-droid
 
 # draw
-sudo apt-get install -y gimp gpick gpicview gcolor2 graphicsmagick imagemagick inkscape npm
+sudo apt-get install -y gimp gpick gpicview gcolor2 graphicsmagick imagemagick viewnior libimage-exiftool-perl inkscape npm
 
 # life
 sudo apt-get install -y cheese comix mplayer2 smplayer smtube vlc
