@@ -26,6 +26,7 @@ ln:
 	ln -fsn /home/share-config/.config/gpick      ~/.config/gpick
 	ln -fsn /home/share-config/.config/htop      ~/.config/htop
 	ln -fsn /home/share-config/.config/inkscape  ~/.config/inkscape
+	ln -fsn /home/share-config/.config/.oh-my-zsh  ~/.oh-my-zsh
 	ln -fsn /home/share-config/.config/smplayer  ~/.config/smplayer
 	# ln -fsn /home/share-config/.config/smtube    ~/.config/smtube
 	ln -fsn /home/share-config/.config/vivaldi   ~/.config/vivaldi
