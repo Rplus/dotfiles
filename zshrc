@@ -98,8 +98,20 @@ alias ggv="git commit -v"
 alias gri="git rebase -i"
 alias gfr="git co master && git fetch upstream && git rebase upstream/master"
 alias npmo="npm --cache-min 9999999 "
-alias py-s="python -m SimpleHTTPServer"
+alias py-s="python -m SimpleHTTPServer 12345"
+alias pys="python -m SimpleHTTPServer 12345"
+alias ooo="exo-open ./"
 
+# fasd
+eval "$(fasd --init auto)"
+alias a='fasd -a' # any
+alias s='fasd -si' # show / search / select
+alias d='fasd -d' # directory
+alias f='fasd -f' # file
+alias sd='fasd -sid' # interactive directory selection
+alias sf='fasd -sif' # interactive file selection
+alias z='fasd_cd -d' # cd, same functionality as j in autojump
+alias zz='fasd_cd -d -i' # cd with interactive selection
 
 # export NVM_DIR="/home/r/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
