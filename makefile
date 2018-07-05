@@ -21,6 +21,7 @@ sync:
 
 ln:
 	ln -fsn /home/share-config/.config/.mozilla  ~/.mozilla
+	ln -fsn /home/share-config/.config/.steam    ~/.steam
 	ln -fsn /home/share-config/.config/.ssh      ~/.ssh
 	ln -fsn /home/share-config/.config/Code      ~/.config/Code
 	ln -fsn /home/share-config/.config/gpick      ~/.config/gpick
