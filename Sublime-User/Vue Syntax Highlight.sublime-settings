@@ -1,6 +1,7 @@
 {
   "extensions":
   [
-    "pug"
+    "svelte",
+    "vue"
   ]
 }

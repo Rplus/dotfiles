@@ -1,7 +1,8 @@
 {
-  "preferences": {
-    "css.autoInsertVendorPrefixes": false
-    // "css.valueSeparator": ": ",
-    // "css.propertyEnd": ";"
-  },
+	"preferences":
+	{
+		"css.autoInsertVendorPrefixes": false
+	},
+	"telemetry": false,
+	"uid": "040a2fe5-14d7-49d1-aa14-0f3f6dc51b15"
 }

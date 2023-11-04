@@ -50,7 +50,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git npm node github rvm ubuntu)
+plugins=(git npm node ubuntu)
 
 # User configuration
 
@@ -91,15 +91,21 @@ alias CC="clear"
 alias gp="git push"
 alias gpr="git pull --rebase"
 alias gd="git diff"
-alias gdd="git diff --color | diff-so-fancy"
+alias gdd="git diff | delta"
 alias gss="git stash"
 alias gsp="git stash pop"
 alias ggv="git commit -v"
+alias dd="axel -n 30 -a "
+alias dds="axel -n 30 -s 500000 -a "
 alias gri="git rebase -i"
 alias gfr="git co master && git fetch upstream && git rebase upstream/master"
 alias npmo="npm --cache-min 9999999 "
-alias py-s="python -m SimpleHTTPServer 12345"
-alias pys="python -m SimpleHTTPServer 12345"
+alias py-s="python3 -m http.server"
+alias pys="python3 -m http.server"
+alias ppp="python3 -m http.server"
+alias www="python3 -m http.server"
+alias devs="npx servor --reload"
+# alias wwwlv='browser-sync start --server --no-notify --files="**/*" --ignore="node_modules/*" -b="chromium-browser"'
 alias ooo="exo-open ./"
 
 # fasd
@@ -116,8 +122,10 @@ alias zz='fasd_cd -d -i' # cd with interactive selection
 # export NVM_DIR="/home/r/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+# export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
-export PATH="$HOME/.yarn/bin:$PATH"
+# export PATH="$HOME/.yarn/bin:$PATH"
 export PATH=~/.npm-global/bin:$PATH
+
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).

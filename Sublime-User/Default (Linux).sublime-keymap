@@ -31,6 +31,15 @@
 
     { "keys": ["alt+shift+r"], "command": "reveal_in_side_bar" },
 
+    {
+        "keys": ["alt+w"],
+        "command": "toggle_setting",
+        "args": {
+            "setting": "word_wrap"
+        }
+    },
+    { "keys": ["ctrl+u"], "command": "soft_undo" },
+
     { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0 } },
     { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0 } }
 ]
