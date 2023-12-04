@@ -34,8 +34,8 @@
 # 	log = diff-highlight | less
 # 	show = diff-highlight | less
 # 	diff = diff-highlight | less
-[interactive]
-  diffFilter = delta --color-only
+# [interactive]
+#   diffFilter = delta --color-only
 [init]
 	defaultBranch = main
 [safe]
