@@ -5,6 +5,8 @@
 	],
 	"installed_packages":
 	[
+		"CodeFormatter",
+		"CSS3",
 		"Emmet",
 		"MoveTab",
 		"Package Control",
