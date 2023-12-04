@@ -2,69 +2,41 @@
   { "caption": "-", "id": "end" },
   { "command": "reindent", "args": {"single_line": true} },
 
+  // {
+  //   "command": "open_dir",
+  //   "args": {"dir": "$file_path", "file": "$file_name"},
+  //   "caption": "OOO"
+  // },
   //application 3
-  { "id": "side-bar-files-open-with-custom",
-    "caption": "Custom open with…",
-    "mnemonic": "C",
-    "children": [
-      {
-        "caption": "Mousepad",
-        "mnemonic": "M",
-        "id": "side-bar-files-open-with-mousepad",
-        "command": "side_bar_files_open_with",
-        "args": {
-                  "paths": [],
-                  "application": "/usr/bin/mousepad",
-                  "extensions":"",
-                  "args":[]
-                },
-        "open_automatically" : false // will close the view/tab and launch the application
-      },
-      { "caption": "-", "id": "ends" },
-      {
-        "caption": "Atom",
-        "command": "side_bar_files_open_with",
-        "args": {
-                  "paths": [],
-                  "application": "/usr/bin/atom",
-                  "extensions":"",
-                  "args":[]
-                },
-        "open_automatically" : false
-      },
-      {
-        "caption": "Visual Studio Code",
-        "command": "side_bar_files_open_with",
-        "args": {
-                  "paths": [],
-                  "application": "/usr/bin/code",
-                  "extensions":"",
-                  "args":["-r"]
-                },
-        "open_automatically" : false
-      },
-      {
-        "caption": "ReText",
-        "command": "side_bar_files_open_with",
-        "args": {
-                  "paths": [],
-                  "application": "/usr/bin/retext",
-                  "extensions":"md",
-                  "args":[]
-                },
-        "open_automatically" : false
-      },
-      {
-        "caption": "InkScape",
-        "command": "side_bar_files_open_with",
-        "args": {
-                  "paths": [],
-                  "application": "/usr/bin/inkscape",
-                  "extensions":"svg",
-                  "args":[]
-                },
-        "open_automatically" : false
-      }
-    ]
-  }
+  // { "id": "side-bar-files-open-with-custom",
+  //   "caption": "Custom open with…",
+  //   "mnemonic": "C",
+  //   "children": [
+  //     {
+  //       "caption": "Mousepad",
+  //       "mnemonic": "M",
+  //       "id": "side-bar-files-open-with-mousepad",
+  //       "command": "side_bar_files_open_with",
+  //       "args": {
+  //                 "paths": [],
+  //                 "application": "/usr/bin/mousepad",
+  //                 "extensions":"",
+  //                 "args":[]
+  //               },
+  //       "open_automatically" : false // will close the view/tab and launch the application
+  //     },
+  //     { "caption": "-", "id": "ends" },
+  //     {
+  //       "caption": "Visual Studio Code",
+  //       "command": "side_bar_files_open_with",
+  //       "args": {
+  //                 "paths": [],
+  //                 "application": "/usr/bin/code",
+  //                 "extensions":"",
+  //                 "args":["-r"]
+  //               },
+  //       "open_automatically" : false
+  //     }
+  //   ]
+  // }
 ]

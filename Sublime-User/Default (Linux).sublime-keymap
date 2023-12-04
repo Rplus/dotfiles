@@ -29,7 +29,6 @@
 
     { "keys": ["f5"], "command": "revert" },
 
-    { "keys": ["alt+shift+r"], "command": "reveal_in_side_bar" },
 
     {
         "keys": ["alt+w"],

@@ -1,8 +1,0 @@
-[
-    // https://github.com/cj/sublime/blob/master/Theme%20-%20Default/Default.sublime-theme
-    {
-        "class": "sidebar_label",
-        "font.size": 13,
-        "font.face": "Consolas"
-    }
-]

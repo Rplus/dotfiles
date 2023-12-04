@@ -1,6 +1,0 @@
-// SublimeLinter Settings - User
-{
-  "paths": {
-    "linux": ["/home/r/.npm-global/bin/eslint"]
-  },
-}
