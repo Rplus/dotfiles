@@ -2,11 +2,16 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"SideBarEnhancements"
 	],
 	"installed_packages":
 	[
+		"ASCII Decorator",
+		"Astro",
 		"CodeFormatter",
 		"CSS3",
+		"DocBlockr",
+		"DoxyDoxygen",
 		"Emmet",
 		"MoveTab",
 		"Package Control",
@@ -14,6 +19,7 @@
 		"SideBarTools",
 		"Svelte",
 		"Terminal",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"TypeScript"
 	]
 }
