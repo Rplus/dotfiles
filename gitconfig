@@ -24,12 +24,14 @@
 	tabwidth = 4
 [gui]
 	editor = gvim
+	tabwidth = 4
 	historybrowser = gitk
 [diff]
 	tool = meld
 	guitool = meld
 	algorithm = patience
 	compactionHeuristic = true
+	tabwidth = 4
 # [pager]
 # 	log = diff-highlight | less
 # 	show = diff-highlight | less

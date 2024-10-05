@@ -8,6 +8,7 @@ set ru
 set secure
 set expandtab
 set sw=4
+set tabstop=4
 set softtabstop=4
 set termencoding=utf8
 syntax on

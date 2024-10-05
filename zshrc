@@ -50,7 +50,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git npm node ubuntu)
+plugins=(git npm node ubuntu pnpm-shell-completion)
 
 # User configuration
 
@@ -105,9 +105,10 @@ alias py-s="python3 -m http.server"
 alias pys="python3 -m http.server"
 alias ppp="python3 -m http.server"
 alias www="python3 -m http.server"
-alias devs="npx servor --reload"
+alias devs="npx servor --reload --static"
 # alias wwwlv='browser-sync start --server --no-notify --files="**/*" --ignore="node_modules/*" -b="chromium-browser"'
 alias ooo="exo-open ./"
+alias oo='exo-open ./' # cd with interactive selection
 
 # fasd
 eval "$(fasd --init auto)"
@@ -120,6 +121,9 @@ alias sf='fasd -sif' # interactive file selection
 alias z='fasd_cd -d' # cd, same functionality as j in autojump
 alias zz='fasd_cd -d -i' # cd with interactive selection
 
+# yt-dlp
+alias yy='yt-dlp --no-mtime' # cd with interactive selection
+
 # export NVM_DIR="/home/r/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
@@ -130,3 +134,18 @@ alias zz='fasd_cd -d -i' # cd with interactive selection
 export PATH=~/.npm-global/bin:$PATH
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+
+# bun completions
+[ -s "/home/r23/.bun/_bun" ] && source "/home/r23/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/home/r23/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

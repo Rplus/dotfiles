@@ -1,2 +1,3 @@
 # + -v
+set tab-size = 4
 bind status C !git commit -v
