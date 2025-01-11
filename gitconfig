@@ -5,7 +5,19 @@
 	editor = vim
 	symlinks = false
 	excludesfile = /home/r19/.gitignore_global
-	pager = less -x1,5
+	# pager = less -x1,5
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true  # use n and N to move between diff sections
+	dark = true      # or light = true, or omit for auto-detection
+	# side-by-side = true
+
+[merge]
+	conflictstyle = zdiff3
 
 [push]
 	default = current
@@ -32,6 +44,10 @@
 	algorithm = patience
 	compactionHeuristic = true
 	tabwidth = 4
+[difftool]
+	prompt = false
+[difftool "meld"]
+ 	cmd = meld "$LOCAL" "$REMOTE"
 # [pager]
 # 	log = diff-highlight | less
 # 	show = diff-highlight | less

@@ -23,7 +23,7 @@ sudo apt-get install -y --ignore-missing arandr bmon wmctrl htop easystroke gcin
 # gtk-recordmydesktop
 
 # dev
-sudo apt-get install -y git gitg gitk tig vim zsh cloc meld
+sudo apt-get install -y git gitg gitk tig vim zsh cloc meld jq
 # retext
 # sudo apt-get install -y nodejs npm
 curl -L https://git.io/n-install | bash

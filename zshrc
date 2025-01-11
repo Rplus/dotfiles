@@ -96,6 +96,7 @@ alias gdd="git diff | delta"
 alias gss="git stash"
 alias gsp="git stash pop"
 alias ggv="git commit -v"
+
 alias dd="axel -n 30 -a "
 alias dds="axel -n 30 -s 500000 -a "
 alias gri="git rebase -i"
@@ -104,11 +105,11 @@ alias npmo="npm --cache-min 9999999 "
 alias py-s="python3 -m http.server"
 alias pys="python3 -m http.server"
 alias ppp="python3 -m http.server"
-alias www="python3 -m http.server"
+alias www="live-server --no-browser"
 alias devs="npx servor --reload --static"
-# alias wwwlv='browser-sync start --server --no-notify --files="**/*" --ignore="node_modules/*" -b="chromium-browser"'
+alias wwwlv='browser-sync start --server --no-open --no-notify --files="**/*" --ignore="node_modules/*"'
 alias ooo="exo-open ./"
-alias oo='exo-open ./' # cd with interactive selection
+alias oo='exo-open ./'
 
 # fasd
 eval "$(fasd --init auto)"
@@ -122,7 +123,9 @@ alias z='fasd_cd -d' # cd, same functionality as j in autojump
 alias zz='fasd_cd -d -i' # cd with interactive selection
 
 # yt-dlp
-alias yy='yt-dlp --no-mtime' # cd with interactive selection
+alias yy='yt-dlp --no-mtime –sponsorblock-remove all ' # yt-dlp
+alias yyaudio='yt-dlp --no-mtime --write-thumbnail ' # yt-dlp
+# alias yyaudio='yt-dlp --no-mtime --embed-thumbnail -f bestaudio -x --audio-format mp3 --audio-quality 192k ' # yt-dlp
 
 # export NVM_DIR="/home/r/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -149,3 +152,4 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+PATH=/home/r23/.local/share/pnpm:/home/r23/.bun/bin:/home/r23/.npm-global/bin:/home/r23/bin:/usr/local/bin:/home/r23/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/r23/n/bin:/mnt/D/Software/AppImage
